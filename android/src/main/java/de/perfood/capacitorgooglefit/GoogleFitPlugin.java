@@ -116,7 +116,7 @@ public class GoogleFitPlugin extends Plugin {
         final GoogleSignInAccount account = getAccount();
 
         if (account == null) {
-            call.reject("No access");
+            call.reject("No access 1");
             return null;
         }
 
@@ -186,7 +186,7 @@ public class GoogleFitPlugin extends Plugin {
         final GoogleSignInAccount account = getAccount();
 
         if (account == null) {
-            call.reject("No access");
+            call.reject("No access 2");
             return null;
         }
 
@@ -241,7 +241,7 @@ public class GoogleFitPlugin extends Plugin {
         final GoogleSignInAccount account = getAccount();
 
         if (account == null) {
-            call.reject("No access");
+            call.reject("No access 3");
             return null;
         }
 
